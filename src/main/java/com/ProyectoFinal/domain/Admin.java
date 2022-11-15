@@ -26,7 +26,15 @@ public class Admin implements Serializable {
 
     public Admin() {
     }
-    
-    
+
+    public Admin(String nombreAdmin, String contrasena, String nombre, String apellido, String email, int telefono, boolean activo) {
+        this.nombreAdmin = nombreAdmin;
+        this.contrasena = contrasena;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.telefono = telefono;
+        this.activo = activo;
+    }
 
 }
